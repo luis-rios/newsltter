@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'newsletters.apps.NewslettersConfig',
     'tags.apps.TagsConfig',
-    'users.apps.UserConfig',
+    'users.apps.UsersConfig',
     'rest_framework'
 
 ]
