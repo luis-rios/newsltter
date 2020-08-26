@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'newsletters.apps.NewslettersConfig',
     'tags.apps.TagsConfig',
     'users.apps.UsersConfig',
-    'rest_framework'
+    'rest_framework',
+    'rest_framework.authtoken',
 
 ]
 
@@ -83,8 +84,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'newsletter',
         'USER': 'postgres',
-        'PASSWORD': 'zekken12',
-        'HOST': '127.0.0.1',
+        'PASSWORD': '',
+        'HOST': 'localhost',
         'PORT': '5432'
     }
 }
