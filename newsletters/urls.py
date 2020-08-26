@@ -6,7 +6,6 @@ from newsletters.views import NewsletterViewSet
 router = DefaultRouter()
 router.register(r'Newsletter', NewsletterViewSet)
 
-app_name = 'newsletters'
 urlpatterns = [
     path('', include(router.urls)),
 

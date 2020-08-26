@@ -5,7 +5,7 @@ from newsletters.models import Newsletter
 from newsletters.serializers import NewsletterSerializer
 
 
-class NewsletterViewSet(viewsets.ModelsViewSet):
+class NewsletterViewSet(viewsets.ModelViewSet):
     queryset = Newsletter.objects.all()
     serializer_class = NewsletterSerializer
 
